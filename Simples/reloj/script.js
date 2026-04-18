@@ -1,4 +1,5 @@
 const clock = document.getElementById("clock");
+const dateElement = document.getElementById("date");
 
 
 //funcion que obtiene la hora actual
@@ -19,8 +20,33 @@ function updateclock() {
 
 
     clock.textContent = `${hours}:${minutes}:${seconds}`;
+
+
+    //fecha
+
+    const day = now.getDate();
+    const month = now.getMonth() + 1;
+    const Year = now.getFullYear();
+
+
+    // dias de la semana
+
+    const days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes",
+        "Sabado"
+    ]
+
+    const dayname = days[now.getDay()];
+
+    dateElement.textContent = `${dayname} ${day}/${month}/${Year}`;
+
+
+
+
+
 }
 
 setInterval(updateclock, 1000);
 
 updateclock();
+
+console.log("js funcionando juasjuasjuasjuas");

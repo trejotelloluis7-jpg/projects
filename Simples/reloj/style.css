@@ -19,3 +19,8 @@ body {
     margin-top: 20px;
     letter-spacing: 5px;
 }
+
+#date {
+    font-size: 18px;
+    margin-top: 0px;
+}
