@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(37, 61, 61);
+    color: rgb(90, 129, 129);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#guess {
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#check {
+    padding: 10px 20px;
+    font-size: 13px;
+    border-style: hidden;
+    cursor: pointer;
+}

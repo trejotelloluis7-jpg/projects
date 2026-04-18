@@ -12,5 +12,10 @@ body {
 
 #container {
     text-align: center;
+}
 
+#clock {
+    font-size: 60px;
+    margin-top: 20px;
+    letter-spacing: 5px;
 }
