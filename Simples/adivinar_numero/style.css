@@ -24,3 +24,17 @@ body {
     border-style: hidden;
     cursor: pointer;
 }
+
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: cadetblue;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+
+.back:hover {
+    color: aquamarine;
+}
