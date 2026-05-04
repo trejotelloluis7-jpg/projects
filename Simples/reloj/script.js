@@ -48,5 +48,3 @@ function updateclock() {
 setInterval(updateclock, 1000);
 
 updateclock();
-
-console.log("js funcionando juasjuasjuasjuas");

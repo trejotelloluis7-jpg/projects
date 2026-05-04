@@ -1,14 +1,4 @@
-body {
-    margin: 0px;
-    background-color: darkgrey;
-    color: darkslategray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-}
+body {}
 
 #container {
     text-align: center;
@@ -23,16 +13,6 @@ body {
 #date {
     font-size: 18px;
     margin-top: 0px;
-}
-
-.back {
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
-    color: antiquewhite;
-    background-color: cadetblue;
-    padding: 2px 20px;
-    border-radius: 5px;
 }
 
 .back:hover {

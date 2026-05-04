@@ -3,18 +3,29 @@ body {
     justify-content: center;
     align-items: center;
     background-color: cadetblue;
+    display: flex;
+    height: 70vh;
 }
 
-input {
-    color: aqua;
-    border-style: groove;
-    border-radius: 5px;
-    border-width: 3px;
-
+.contain {
+    background-color: azure;
+    padding: 30px;
+    border-style: double;
+    border-color: cornflowerblue;
 }
 
-button {
-    border-style: groove;
-    border-radius: 5px;
-    border-width: 3px;
+
+li {
+    margin: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: inside;
+}
+
+a {
+    display: inline-block;
+    color: rgb(58, 83, 136);
 }
