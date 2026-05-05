@@ -64,7 +64,7 @@ function render() {
         if (filter === "complet") return !tasks.done;
         return true;
     });
-    filteredTasks.forEach((tasks) => {
+    filteredTasks.forEach((task) => {
 
         const li = document.createElement("li");
         li.textContent = task.text;

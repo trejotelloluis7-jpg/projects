@@ -16,9 +16,13 @@ body {
 
 
 li {
-    margin: 8px;
-    padding: 10px;
+    margin: 5px;
+    padding: 4px;
     cursor: pointer;
+}
+
+li:hover {
+    background-color: darkgrey;
 }
 
 ul {
