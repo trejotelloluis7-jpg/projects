@@ -90,7 +90,7 @@ function render() {
 
         deletebutt.addEventListener("click", (e) => {
             e.stopPropagation();
-            tasks.splice(index, 1);
+            task.splice(index, 1);
             render();
 
         });
